@@ -1,0 +1,29 @@
+.cover {
+  background: url(../../img/trains.png) no-repeat center / cover;
+  width: 1024px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -90px;
+  position: relative;
+  z-index: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42 44 47 / 0.3);
+  z-index: -1;
+}
+
+.cover:hover:before {
+  background-color: rgba(42 44 47 / 0.8);
+}

@@ -1,0 +1,11 @@
+.header {
+  max-width: 1184px;
+  min-height: 52px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 28px 15px 0;
+  box-sizing: content-box;
+}
