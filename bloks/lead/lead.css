@@ -7,3 +7,9 @@
     padding: 0 90px;
    }
 }
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0;
+   }
+}

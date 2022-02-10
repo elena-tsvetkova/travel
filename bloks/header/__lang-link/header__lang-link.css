@@ -4,3 +4,10 @@
   color: white;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
