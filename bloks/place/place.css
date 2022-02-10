@@ -15,3 +15,11 @@
     grid-gap: 48px 40px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place {
+    padding-bottom: 73px;
+    grid-gap: 48px 28px;
+    min-width: 720px;
+  }
+}
