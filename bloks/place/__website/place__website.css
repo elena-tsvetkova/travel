@@ -3,3 +3,10 @@
   flex-direction: column;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 618px) {
+  .place__website {
+    margin:32px 0;
+    padding-left: 16px;
+  }
+}

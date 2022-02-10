@@ -11,3 +11,17 @@
     line-height: 110%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 52px;
+    line-height: 109%;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 32px;
+  }
+}

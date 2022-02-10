@@ -238,43 +238,43 @@
     
   } */
   
-  .places {
+  /* .places {
     padding: 64px 0 66px;
-  }
+  } */
   
-  .place {
+  /* .place {
     display: block;
     padding-bottom: 50px;
     padding-left: 0;
-  }    
+  }     */
   
   .place:last-child {
     padding-bottom: 0;
   }
   
-  .title {
+  /* .title {
     font-size: 32px;
     line-height: 109%;
     padding-left: 16px;
-  }
+  } */
   
-  .place__website {
+  /* .place__website {
     margin-top: 32px;
     padding-left: 16px;
-  }
+  } */
   
   .place__link {
     margin-bottom: 32px;
   }
   
-  .place__paragraph {
+  /* .place__paragraph {
     padding-left: 16px;
     font-size: 16px;
     line-height: 163%;
     margin: 0;
     padding-bottom: 25px;
   }
-  
+   */
   .place__image {
     max-width: 320px;
     max-height: 320px;

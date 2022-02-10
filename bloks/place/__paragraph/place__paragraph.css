@@ -15,3 +15,22 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .place__paragraph {
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+}

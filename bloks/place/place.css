@@ -20,6 +20,20 @@
   .place {
     padding-bottom: 73px;
     grid-gap: 48px 28px;
-    min-width: 720px;
+    max-width: 928px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding-bottom: 50px;
+    padding-left: 0;
+    grid-gap: 38px 32px;
+  } 
+}
+
+@media screen and (max-width: 618px) {
+  .place {
+    display: block;
+  } 
 }
