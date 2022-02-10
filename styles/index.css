@@ -32,6 +32,7 @@
 @import url(../bloks/place/__image/place__image.css);
 @import url(../bloks/place/__link/place__link.css);
 @import url(../bloks/place/__paragraph/place__paragraph.css);
+@import url(../bloks/place/__paragraph/_indent/place__paragraph_indent.css);
 @import url(../bloks/place/__url-heading/place__url-heading.css);
 @import url(../bloks/place/__website/place__website.css);
 

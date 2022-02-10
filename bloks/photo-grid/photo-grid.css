@@ -5,4 +5,14 @@
   grid-gap: 14px;
   object-fit: cover;
   margin: 0;
+  justify-items: stretch;
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 16px;
+    margin: 0 -90px;
+  }
 }

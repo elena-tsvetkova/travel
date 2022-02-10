@@ -4,3 +4,10 @@
   margin-bottom: 8px;
   object-fit: contain;
 }
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    height: 615px;
+    width: 100%;
+  }
+}

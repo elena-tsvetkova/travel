@@ -1,4 +1,10 @@
 .place__image {
   max-width: 440px;
-  max-height: 440px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    max-width: 460px;
+  }
 }

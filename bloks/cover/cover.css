@@ -27,3 +27,10 @@
 .cover:hover:before {
   background-color: rgba(42 44 47 / 0.8);
 }
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+    height: 740px;
+  }
+}
