@@ -2,7 +2,7 @@
   height: 580px;
   width: 100%;
   margin-bottom: 8px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 1280px) {
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
     height: 480px;
   }

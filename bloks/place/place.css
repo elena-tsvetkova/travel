@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place {
     padding-bottom: 73px;
     grid-gap: 48px 28px;

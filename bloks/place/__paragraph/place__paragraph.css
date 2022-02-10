@@ -9,7 +9,7 @@
   padding-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
     padding-bottom: 25px;
     font-size: 16px;

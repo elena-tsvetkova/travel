@@ -6,6 +6,7 @@
   object-fit: cover;
   margin: 0;
   justify-items: stretch;
+  
 }
 
 @media screen and (min-width: 1280px) {
@@ -13,11 +14,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
-    margin: 0 -90px;
+    
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     padding: 0 24px;
     min-width: 720px;
@@ -27,3 +28,4 @@
     justify-items: stretch;
   }
 }
+

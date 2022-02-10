@@ -60,11 +60,11 @@
 
 /* ---------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and  (max-width: 1024px) {
 
 }
 /* padding: 0 24px; */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   /* .header {
     max-width: 720px;
     min-height: 52px;
@@ -140,15 +140,15 @@
     }
     
 
-  .footer {
+  /* .footer {
       width: 720px;
       padding-top: 88px;
       padding-bottom: 24px;
-    }    
+    }     */
 }
 
 /* ------------------------------ */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .place {
     display: block;
     padding-bottom: 50px;
