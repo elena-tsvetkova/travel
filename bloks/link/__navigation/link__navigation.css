@@ -7,3 +7,23 @@
   line-height: 18px;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .link__navigation {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .link__navigation {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    display: inline-block;
+  }
+
+  .link__navigation:last-child {
+    margin-bottom: 48px;
+  }
+}

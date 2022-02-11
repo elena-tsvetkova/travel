@@ -1,5 +1,5 @@
 .footer {
-  width: 928px;
+  max-width: 928px;
   margin: 0 auto;
   padding-top: 92px;
   display: flex;
@@ -16,8 +16,29 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 720px;
     padding-top: 88px;
     padding-bottom: 24px;
   }    
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 88px;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .footer {
+    width: 186px;
+    margin: 0;
+    padding-top: 64px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding-bottom: 24px;
+  }
 }
