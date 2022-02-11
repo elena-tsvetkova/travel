@@ -285,19 +285,19 @@
     height: 200px;
   }
 
-  .cover__title {
+  /* .cover__title {
     padding:0 0 16px;
     max-width: 288px;
     font-size: 32px;
     line-height: 109%;
-  }
+  } */
   
-  .cover__subtitle {
+  /* .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
     margin: 0;
     max-width: 288px;
-  }
+  } */
 
   .footer {
     width: 186px;

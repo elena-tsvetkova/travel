@@ -11,19 +11,18 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    max-width: 340px;
+    max-width: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-   max-width: px;
+   max-width: 340px;
   }
 }
 
 @media screen and (max-width: 618px) {
   .place__image {
-    max-width: 618px;
-    align-self: stretch;
+    width: 100%;
   }
 }
