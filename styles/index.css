@@ -1,6 +1,6 @@
-@import url(normalize.css);
+@import url(../vendor/normalize.css);
 
-@import url(../bloks/font-face/font-face.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__copyright/footer__copyright.css);
